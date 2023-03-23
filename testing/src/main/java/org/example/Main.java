@@ -16,6 +16,13 @@ public class Main {
             sum+=tt;
         }
         System.out.println(sum);
+        System.out.println(autoSum(sum));
 
+    }
+
+    private static int autoSum(int sum) {
+        int y = 1000;
+        int z = y/sum;
+        return z;
     }
 }
